@@ -11,6 +11,7 @@
     "react-scripts": "4.0.3",
     "web-vitals": "^1.1.2"
   },
+  "homepage": "/579ps6",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -34,5 +35,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^3.2.3"
   }
+
+
 }

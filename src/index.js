@@ -7,7 +7,7 @@ ReactDOM.render(
     <>
       <div className="container">
         <div>
-          <a href="https://bria559.github.io/579ps6/">
+          <a href="https://bria559.github.com/579ps6/">
             Code
           </a>
         </div>
