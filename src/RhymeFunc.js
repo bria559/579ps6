@@ -9,15 +9,19 @@ function RhymeFunc(){
     const [rhymes_list, setRhymes_list] = useState([]);
     const [description, setDescription] = useState('');
     const [synonyms_list, setSynonyms_list] = useState('');
-    const [saved_word, setSavedWord] = useState('');
+    const [saved_word, setSavedWord] = useState([]);
     const [results_listed, setResultsListed]= useState(false);
 
     let saved_list = [];
+    let string_saved = '';
     function updateSaved(word){
       // setSavedWord(word);
       // saved_list.push(saved_word);
       saved_list.push(word);
+      // console.log(saved_list);
+      saved_list.toString();
       console.log(saved_list);
+      setSavedWord(saved_list);
     };
     
     
